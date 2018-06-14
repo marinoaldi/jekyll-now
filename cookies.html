@@ -23,8 +23,8 @@
             configBtn: "<div class=\"cc-config\"></div>"
         });
 
-        cookies.setCookiesEnabledHandler(() => { console.log("Cookies enabled")});
-        cookies.setCookiesDisabledHandler(() => { console.log("Cookies disabled")});
+        cookies.setCookiesEnabledHandler(function(){ console.log("Cookies enabled")});
+        cookies.setCookiesDisabledHandler(function(){ console.log("Cookies disabled")});
     </script>
 
 </head>
