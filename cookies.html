@@ -8,37 +8,11 @@
     <title>Cookies Test</title>
     <link rel="shortcut icon" type="image/x-icon" href="http://www.icc.cat/favicon.ico">
 
-
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/styles.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/leaflet.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/master.css" rel="stylesheet" type="text/css">
-    <!--[if IE 9]>
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/IE9/master.css" rel="stylesheet" type="text/css"/>
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/IE9/style_IE9.css" rel="stylesheet" type="text/css"/>
-    <![endif]-->
-    <!--[if lt IE 9]>
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/IE8/style_IE8.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/respond.min.js"></script>
-    <script type="text/javascript" src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/modernizr.js"></script>
-    <![endif]-->
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/capcalera.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_subcapcalera.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_article.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_BIG_playlist.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/plugins.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_llista_simple.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_distribuidora.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/vendor/gencat/fpca_peu_faldoLlista.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/ezxmltext-field.css" rel="stylesheet" type="text/css">
-    <link rel='stylesheet' href="http://www.icgc.cat/bundles/microblauicgc/js/cookiecuttr/cookiecuttr.css" type="text/css"/>
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/reset.css" rel="stylesheet" type="text/css">
-    <link href="http://www.icgc.cat/bundles/microblauicgc/css/form_style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://gencat.github.io/ICGC-Cookie-GDPR/dist/cookies-icgc.min.css">
     <div id="control"></div>
-    <script src="https://gencat.github.io/ICGC-Cookie-GDPR/dist/cookies-icgc-ie11.js"></script>
+    <script src="https://gencat.github.io/ICGC-Cookie-GDPR/dist/cookies-icgc.js"></script>
     <script>
-        const cookies = new icgc.CookiesICGC("marinoaldi.github.io", [], {configBtnSelector: "#control",
+        const cookies = new icgc.CookiesICGC(window.location.hostname, [], {configBtnSelector: "#control",
             content: {
                 message: "We use cookies to distinguish you from other users in our websites, to improve the information and services we offer you, and to enable the access. If you do not accept them, some parts of the website can stop working properly. For more information, read the",
                 allow: "Accept",
@@ -52,23 +26,9 @@
         cookies.setCookiesEnabledHandler(() => { console.log("Cookies enabled")});
         cookies.setCookiesDisabledHandler(() => { console.log("Cookies disabled")});
     </script>
-    
+
 </head>
 <body>
-
-
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/jquery.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/master.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/generic_responsive.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/master.resposive.js" type="text/javascript"></script>
-<script src="http://www.gencat.cat/js/gencat/2.4/gencat.min.js"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/vendor/gencat/fpca_capcalera.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/ezxmltext.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/sameHeight.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/reset.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/jquery.cookie.js" type="text/javascript"></script>
-<script src="http://www.icgc.cat/bundles/microblauicgc/js/cookiecuttr/jquery.cookiecuttr.js" type="text/javascript"></script>
-
-
+cookies banner sample
 </body>
 </html>
