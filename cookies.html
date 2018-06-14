@@ -12,7 +12,7 @@
     <div id="control"></div>
     <script src="https://gencat.github.io/ICGC-Cookie-GDPR/dist/cookies-icgc.js"></script>
     <script>
-        const cookies = new icgc.CookiesICGC(window.location.hostname, [], {configBtnSelector: "#control",
+        var cookies = new icgc.CookiesICGC(window.location.hostname, [], {configBtnSelector: "#control",
             content: {
                 message: "We use cookies to distinguish you from other users in our websites, to improve the information and services we offer you, and to enable the access. If you do not accept them, some parts of the website can stop working properly. For more information, read the",
                 allow: "Accept",
