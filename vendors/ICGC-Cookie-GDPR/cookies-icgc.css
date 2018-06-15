@@ -116,6 +116,7 @@
 }
 .cc-banner .cc-btn:last-child {
   min-width: 140px;
+  max-width: 50%; /* TODO DVP: FIXED IE11 */
 }
 .cc-highlight .cc-btn:first-child {
   background-color: transparent;
@@ -204,7 +205,9 @@
   bottom: 0;
 }
 .cc-banner .cc-message {
-  flex: 1;
+  /*flex: 1;*/ /* TODO DVP: FIXED IE11 */
+  flex: 1 1 auto;
+  width: 100%;
 }
 /* COMPLIANCE BOX */
 .cc-compliance {
@@ -213,8 +216,8 @@
   align-content: space-between;
 }
 .cc-compliance>.cc-btn {
-  flex: 1;
-  /*flex:1 1 auto;*/
+  /*flex: 1;*/ /* TODO DVP: FIXED IE11 */
+  flex: 1 1 auto;
 }
 .cc-btn + .cc-btn {
   margin-left: .5em;
@@ -266,7 +269,8 @@
   }
 
   .cc-window.cc-banner .cc-compliance {
-    flex: 1;
+    /*flex: 1;*/ /* TODO DVP: FIXED IE11 */
+    flex: 1 1 auto;
   }
 
   .cc-window.cc-floating {
